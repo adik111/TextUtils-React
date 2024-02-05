@@ -45,7 +45,7 @@ export default function TextForm(props) {
   const [text, setText] = useState("");
   return (
     <>
-      <div className="container" style={{marginTop:"10px"}}>
+      <div className="container" style={{marginTop:"25px"}}>
         <h1 className="mb-2" style={{ fontStyle: "italic", color: "white" }}>
           {props.heading}
         </h1>
